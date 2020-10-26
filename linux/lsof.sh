@@ -22,6 +22,7 @@ lsof -p pid             # 查看pid所属进程打开文件的信息
 lsof -i:3366            # 查找使用端口的进程
 lsof -i tcp:3366        # ...
 lsof -i udp:3366        # ...
+lsof -i -P              # 显示端口号
 lsof -d fdnumber        # 列出所有文件描述符为fdnumber的信息
 lsof -R                 # -R 列出父进程标识符-PPID
 

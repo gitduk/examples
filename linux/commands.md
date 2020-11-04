@@ -1,3 +1,23 @@
+# 参数	作用
+# %S	秒（00～59）
+# %M	分钟（00～59）
+# %H	小时（00～23）
+# %I	小时（00～12）
+# %m	月份（1~12）
+# %p	显示出AM或PM
+# %a	缩写的工作日名称（例如：Sun）
+# %A	完整的工作日名称（例如：Sunday）
+# %b	缩写的月份名称（例如：Jan）
+# %B	完整的月份名称（例如：January）
+# %q	季度（1~4）
+# %y	简写年份（例如：20）
+# %Y	完整年份（例如：2020）
+# %d	本月中的第几天
+# %j	今年中的第几天
+# %n	换行符（相当于按下回车键）
+# %t	跳格（相当于按下Tab键）
+
+date "+%Y-%m-%d %H:%M:%S"
 #!/bin/bash
 #=============================================================
 # File Name: lsof.sh
@@ -34,4 +54,12 @@ lsof -u "^kaige"        # list uer is not kaige
 
 
 
+
+# grep (global search regular expression(RE) and print out the line)
+
+
+```shell
+grep "" filename ...
+
+```
 

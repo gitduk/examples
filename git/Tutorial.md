@@ -1,5 +1,6 @@
 # Git Tutorial
 
+
 > 文章适合
 
 ### 获取帮助
@@ -47,7 +48,7 @@ git status
 
 
 
-### 查看已经提价的修改
+### 查看已经提交的修改
 
 ```shell
 git diff --cached

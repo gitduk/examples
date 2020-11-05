@@ -11,6 +11,18 @@ man git-log
 git help log
 ```
 
+### 设置
+
+```shell
+# set editor to vim
+git config --global core.editor "vim"
+
+# list all configs of global
+git config --list
+```
+
+
+
 
 
 ### 创建一个储存库
